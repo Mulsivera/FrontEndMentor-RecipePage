@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+
+  --white: hsl(0, 0%, 100%);
+
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+
+  --brown-800: hsl(14, 45%, 36%);
+
+  --Rose-50: hsl(330, 100%, 98%);
+  --Rose-800: hsl(332, 51%, 32%);
+
+  --primary-font: "Outfit", sans-serif;
+  --secondary-font: "Young Serif", serif;
+
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+body {
+  font-family: var(--primary-font);
+  background-color: var(--stone-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h2 {
+  font-family: var(--secondary-font);
+}
+
+h1 {
+  font-size: 40px;
+  margin: 30px 0 20px 0;
+}
+
+h2 {
+  color: var(--brown-800);
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+p, li {
+  color: var(--stone-600);
+}
+
+li {
+  list-style-position: outside;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+ol li::marker {
+  color: var(--brown-800);
+  font-weight: 700;
+}
+
+li span {
+  font-weight: 700;
+}
+
+hr {
+  margin: 40px 0;
+}
+
+table {
+  width: 100%;
+  margin: 15px 0;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 10px 20px;
+
+}
+
+tr:not(:last-child) th {
+  border-bottom: 1px solid var(--stone-150);
+}
+
+.main_div {
+  background-color: white;
+  padding: 35px;
+  border-radius: 25px;
+  max-width: 768px;
+}
+
+.recipe_banner {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.time_section {
+  background-color: var(--Rose-50);
+  padding: 30px;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.time_title {
+  color: var(--Rose-800);
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-family: var(--primary-font);
+}
+
+.nutriment {
+  color: var(--stone-600);
+  font-weight: 500;
+}
+
+.value {
+  color: brown;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+
+  .main_div {
+    border-radius: 0px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .main_div {
+    padding: 0px;
+  }
+
+  .content {
+    padding: 0 35px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+}
+

@@ -2,76 +2,117 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Recipe page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta name="description" content="Découvrez notre recette simple d'omelette, rapide à préparer en seulement 10 minutes.!">
 </head>
-<body>
 
-  Simple Omelette Recipe
+  <body>
 
-  An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
-  to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+    <div class="main_div">
 
-  Preparation time
+      <img class="recipe_banner" src="/assets/images/image-omelette.jpeg" alt="Une magnifique omeltte">
 
-  Total: Approximately 10 minutes
-  Preparation: 5 minutes
-  Cooking: 5 minutes
+      <section class="content">
 
-  Ingredients
+        <h1>Recette d'Omelette Simple</h1>
 
-  2-3 large eggs
-  Salt, to taste
-  Pepper, to taste
-  1 tablespoon of butter or oil
-  Optional fillings: cheese, diced vegetables, cooked meats, herbs
+        <p>Un plat facile et rapide, parfait pour n'importe quel repas. Cette omelette classique combine des œufs battus cuits à la perfection, éventuellement garnis de fromage, légumes ou viandes.</p>
 
-  Instructions
+        <section class="time_section">
 
-  Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
-  You can add a tablespoon of water or milk for a fluffier texture.
+          <h2 class="time_title">Temps de préparation</h2>
 
-  Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.
+          <ul>
 
-  Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
-  the eggs evenly coat the surface.
+            <li> <span> Total </span> : Environ 10 minutes</li>
+            <li> <span> Préparation </span> : 5 minutes</li>
+            <li> <span> Cuisson </span> : 5 minutes</li>
 
-  Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the 
-  middle, sprinkle your chosen fillings over one half of the omelette.
+          </ul>
 
-  Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the 
-  fillings. Let it cook for another minute, then slide it onto a plate.
+        </section>
 
-  Enjoy: Serve hot, with additional salt and pepper if needed.
+        <section class="ingredients_section">
 
-  Nutrition
+          <h2>Ingrédients</h2>
 
-  The table below shows nutritional values per serving without the additional fillings.
+          <ul>
 
-  Calories
-  277kcal
+            <li>2-3 gros œufs</li>
+            <li>Sel</li>
+            <li>Poivre</li>
+            <li>1 cuillère à soupe de beurre ou d'huile</li>
+            <li>Garnitures optionnelles : fromage, légumes, viandes, herbes</li>
 
-  Carbs
-  0g
+          </ul>
 
-  Protein
-  20g
+        </section>
 
-  Fat
-  22g
+        <hr>
+
+        <section class="instructions_section">
+
+          <h2>Instructions</h2>
+
+          <ol>
+
+            <li> <span> Battre les œufs </span> : Dans un bol, battez les œufs avec une pincée de sel et de poivre jusqu'à ce qu'ils soient bien mélangés. Vous pouvez ajouter une cuillère à soupe d'eau ou de lait pour une texture plus aérée.</li>
+        
+            <li> <span> Chauffer la poêle </span> : Placez une poêle à feu moyen et ajoutez du beurre ou de l'huile.</li>
+        
+            <li> <span> Cuire l'omelette </span> : Une fois le beurre fondu et pétillant, versez les œufs. Inclinez la poêle pour assurer que les œufs recouvrent uniformément la surface.</li>
+        
+            <li> <span> Ajouter les garnitures (optionnel) </span> : Lorsque les œufs commencent à prendre sur les bords mais sont encore légèrement coulants au milieu, saupoudrez vos garnitures choisies sur une moitié de l'omelette.</li>
+        
+            <li> <span> Plier et servir </span> : Pendant que l'omelette continue de cuire, soulevez délicatement un bord et pliez-le sur les garnitures. Laissez cuire encore une minute, puis glissez-la sur une assiette.</li>
+        
+            <li> <span> Profiter </span> : Servez chaud, avec du sel et du poivre supplémentaires si besoin.</li>
+
+          </ol>
+
+        </section>
+
+        <hr>
+
+        <section class="nutrition_section">
+
+          <h2>Nutrition</h2>
+
+          <p>Le tableau ci-dessous montre les valeurs nutritionnelles par portion sans les garnitures supplémentaires.</p>
+
+          <table>
+
+            <tr>
+                <th class="nutriment">Calories</th>
+                <th class="value">277 kcal</th>
+            </tr>
+
+            <tr>
+                <th class="nutriment">Glucides</th>
+                <th class="value">0 g</th>
+            </tr>
+
+            <tr>
+                <th class="nutriment">Protéines</th>
+                <th class="value">20 g</th>
+            </tr>
+
+            <tr>
+                <th class="nutriment">Graisses</th>
+                <th class="value">22 g</th>
+            </tr>
+
+          </table>
+
+        </section>
+
+      </section>
+
+    </div>
+
+  </body>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
 </html>
